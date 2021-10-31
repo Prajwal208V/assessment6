@@ -1,0 +1,145 @@
+body{
+    background-color:grey;
+}
+.common-box{
+    border:5px solid red;
+    border-radius:10px;
+    box-shadow:4px 4px 2px purple;
+    background-color:white;
+    text-align:center;
+}
+#head-box{
+   margin:auto;
+   width:150px; 
+   height:80px;
+   padding:3px 50px 10px 50px;
+   
+}
+#head-element{
+    font-weight:900;
+    font-size:18px;
+    font-style:italic;
+    color:darkred;
+    line-height:23px;
+    text-shadow:1px 1px 1px purple;
+}
+/*#horizontal-line{
+    line-height:2px;
+}*/
+
+#center-box{
+    border:3px solid green;
+    width:100%;
+    height:500px;
+    display: flex;
+}
+#center-box-topLeft{
+    width:150px;
+    height:120px;
+}
+.center-box-continer{
+    font-weight:900;
+    font-size:15px;
+    color:black;
+    text-shadow:1px 1px 1px purple;
+    line-height:23px;
+}
+#center-box-topRight{
+    width:150px;
+    height:120px;
+    position:absolute;
+    right:10px;
+}
+#center-box-bottomLeft{
+    width:150px;
+    height:180px;
+    text-align:left;
+    position:relative;
+    top:270px;
+    left:-159px;
+}
+#center-box-centerBox{
+    border:5px solid red;
+    border-radius:10px;
+    box-shadow:4px 4px 2px purple;
+    background-color:lawngreen;;
+    color:darkred;
+    width:350px;
+    height:40px;
+    font-weight:900;
+    font-size:13px;
+    font-style:italic;
+    position: fixed;
+    top:200px;
+    left:28%;
+
+}
+#center-box-element1{
+    margin-top:5px;
+    padding-left:5px;
+    position:relative;
+    left:10px;
+    font-size:14px;
+    font-weight:900;
+}
+#center-box-element2{
+    position: relative;
+    left:200px;
+    bottom:30px;
+}
+#submit-button{
+    background-color:red;
+    border-radius:10px;
+}
+.lable{
+    font-weight:900;
+    font-size:11px;
+    margin-bottom:-2px;
+    margin-top:5px;
+}
+#center-box-form{
+    text-align:center;
+    width:180px;
+    height:180px;
+    position:relative;
+    top:270px;
+    right:-295px;
+}
+#input-element{
+    text-align:center;
+    width: 50%;
+    height:10px;
+    font-size:9px;
+}
+#bottom-box{
+    margin:auto;
+    border:5px solid purple;
+    width:620px;
+    height:550px;
+    background-color:green;
+    text-align:center;
+}
+
+
+.bottom-box-continer{
+    background-color:rgba(236, 183, 36, 0.842);
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+    width:450px;
+    height:200px;
+    margin-top:25px;
+}
+#continer1{
+    width:300px;
+    height:200px;
+}
+#continer2{
+    float:right;
+    width:300px;
+    height:200px;
+}
+#continer3{
+    width:100%;
+    height:200px;
+}
